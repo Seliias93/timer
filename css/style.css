@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 :root {
-  --primary-color: rgb(17, 86, 102);
-  --primary-color-darker: rgb(9, 48, 56);
+  --primary-color: rgb(12, 45, 53);
+  --primary-color-darker: rgb(255, 255, 255);
 }
 
 * {
@@ -19,23 +19,48 @@ body {
 }
 
 .container {
-  max-width: 640px;
-  margin: 50px auto;
+  max-width: 700px;
+  margin: 330px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+  
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
 }
 
 form input, form label, form button {
   display: block;
   width: 100%;
   margin-bottom: 10px;
+  
 }
 
 form input {
   font-size: 24px;
   height: 50px;
   padding: 0 20px;
+}
+
+p.botao {
+    display: flex;
+    justify-content: center;
+}
+
+button.iniciar{
+    background-color: red;
+    
+}
+
+button.pausar{
+    background-color: yellow;
+}
+
+button.zerar{
+    background-color: blue;
 }
 
 form input:focus {
