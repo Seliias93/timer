@@ -31,6 +31,16 @@ h1 {
     display: flex;
     justify-content: center;
 }
+p.relogio {
+    display: flex;
+    justify-content: center;
+}
+
+p.botao {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
 
 form input, form label, form button {
   display: block;
@@ -45,22 +55,28 @@ form input {
   padding: 0 20px;
 }
 
-p.botao {
-    display: flex;
-    justify-content: center;
-}
+
 
 button.iniciar{
-    background-color: red;
+    color: white;
+    background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% );
+    width: 115px;
+    height: 40px;
     
 }
 
 button.pausar{
-    background-color: yellow;
+    color: white;
+    background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% );
+    width: 115px;
+    height: 40px;
 }
 
 button.zerar{
-    background-color: blue;
+    color: white;
+    background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% );
+    width: 115px;
+    height: 40px;
 }
 
 form input:focus {
