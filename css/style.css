@@ -58,25 +58,34 @@ form input {
 
 
 button.iniciar{
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
     background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% );
     width: 115px;
     height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
     
 }
 
 button.pausar{
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
     background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% );
     width: 115px;
     height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
 }
 
 button.zerar{
-    color: white;
+   color: rgba(255, 255, 255, 0.781);
     background: linear-gradient(135deg, #480e6e 25%, #b91313 50%, #5d5d 100% ); 
     width: 115px;
     height: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+
 }
 
 form input:focus {
